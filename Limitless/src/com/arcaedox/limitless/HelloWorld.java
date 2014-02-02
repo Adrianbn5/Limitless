@@ -21,7 +21,7 @@ public class HelloWorld
 
          window.addWindowListener(new WindowAdapter() {
              public void windowDestroyNotify(WindowEvent arg0) {
-                 System.exit();
+                 System.exit(0);
              };
          });
     }
